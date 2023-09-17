@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    // "useDefineForClassFields": true,                  /* Emit ECMAScript-standard-compliant class fields. */
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    // "resolveJsonModule": true,                        /* Enable importing .json files. */
+    // "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    // "checkJs": true,                                  /* Enable error reporting in type-checked JavaScript files. */
+    // "isolatedModules": true,                          /* Ensure that each file can be safely transpiled without relying on other imports. */
+    // "verbatimModuleSyntax": true,                     /* Do not transform or elide any imports or exports not marked as type-only, ensuring they are written in the output file's format based on the 'module' setting. */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  },
+  "include": ["global.d.ts", "src/**/*.d.ts", "src/**/*.ts", "src/**/*.js"],
+  "exclude": ["node_modules"]
+}

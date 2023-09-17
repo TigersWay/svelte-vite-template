@@ -1,0 +1,16 @@
+# Windows & helpers, IDE & Personal preferences
+desktop.ini
+folder.ico
+.keep/
+
+# Dependency files & directories (p/npm)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# Current project's specific files & directories
+.env*
+dist/
+
+
+!gitkeep
